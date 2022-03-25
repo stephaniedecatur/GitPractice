@@ -1,0 +1,27 @@
+body {
+    background-image: url(/img/liveset.jpg);
+    background-size: 1920px 800px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;     
+ 
+}
+
+.box {
+    border-bottom: 20px solid rgba(92, 4, 4, 0.699);
+    border-width: 25px;
+    height: fit-content;
+    width: 1950px;
+    background-position: 100px;
+    
+}
+
+.h1 {
+    font-size: 50px;
+    font-family: 'Palette Mosaic', cursive;
+    
+    
+}
+
+
+
+
