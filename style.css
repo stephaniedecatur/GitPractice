@@ -10,47 +10,44 @@
 }
 
 #content1 {
-    margin-left: 160px;
-    margin-top: 150px;
     width: 100px;
     height: 100px;
+    margin-left: -575px;
+    margin-top: 70px;
 }
 
 #content2 {
-    margin-top: 100px;
-    margin-left: 55px;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: -650px;
+    margin-top: 185px;
 }
 
 #content3 {
-    margin-top: -100px;
-    margin-left: 50px;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: -650px;
+    margin-top: 300px;
 }
 
 #content4 {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
+    margin-left: -650px;
+    margin-top: 415px;
 }
 
 .flex {
     flex-direction: column;
     text-align: center;
     margin-left: 20px;
-    margin-top: -100px;
+    margin-top: -80px;
 }
 
-#flex2 {
-   margin-left: -50px; 
-   flex-direction: column;   
-    
-}
 
 #flex3 {
-    margin-left: 600px;
-    margin-top: 200px;
+    margin-left: 800px;
+    margin-top: -500px;
 }
 
 .h1 {
@@ -62,14 +59,20 @@
 }
 
 #label {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 15px;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    font-weight: bold;
     
 }
 
-.poll {
-    margin-top: 100px;
-   
-}
+
+
+#flex2 {
+    margin-top: 125px;    
+     
+ }
+ 
+
+
 
 
