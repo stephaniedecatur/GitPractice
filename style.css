@@ -1,29 +1,30 @@
 .back {
-    height: 100%;
+height: 100%;
   background-color: #570505;
   background-image: repeating-linear-gradient(90deg, transparent, transparent 35px, rgba(15, 3, 3, 0.2) 50px, rgba(41, 31, 31, 0.2) 100px), repeating-linear-gradient(-360deg, transparent, transparent 50px, rgba(20, 10, 10, 0.4) 50px, rgba(20, 2, 2, 0.4) 70px);
   background-attachment: fixed;
 }
-}
+
 
 
 #content1 {
+    margin-top: 75px;
+    margin-left: -100px;
     width: 400px;
     height: 300px;
-    margin-left: 0px;
-    margin-top: 0px;
+   
 }
 
 #content2 {
     width: 400px;
     height: 300px;
-    margin-top: 0px;
+   
 }
 
 #content3 {
     width: 400px;
     height: 300px;
-    margin-top: 0px;
+   
 }
 
 
@@ -35,11 +36,6 @@
 }
 
 
-#flex3 {
-    margin-left: 800px;
-    margin-top: -500px;
-}
-
 .h1 {
     font-size: 75px;
     font-family: 'Ruslan Display', cursive;
@@ -49,28 +45,67 @@
      
 }
 
-#label {
-    font-family: 'Caveat', cursive;
+.label {
+    font-family: Graphik Bold Subset,Graphik,Tahoma,Verdana,Segoe,sans-serif;
     font-size: 22px;
     font-weight: bold;
+   
     
 }
 
 
 #flex2 {
-    margin-top: 125px;    
+    margin-left: 0px;  
      
  }
 
 /* Create floating image grid */
+
+#table-div {
+    flex-wrap: wrap;
+    padding: 50px;
+    float: right;
+    
+    
+    
+}
  .row {
-     width:50%;
+     width: 50%;
+     margin-top: -950px;
+     flex-direction: row;     
+     flex-wrap: wrap;
+    
          
  }
 
- .column {
-     margin-top: 25px;
+ .row1 {
+    
+    flex-direction: row;     
+    flex-wrap: wrap;
+        
+}
+
+ #pic1 {
+    float: left;
+    margin-left: -250px;
+         
  }
+
+ #pic2 {
+    float: left;
+    margin-left: 75px;
+    
+}
+
+#pic3 {
+    float: left;
+    margin-left: 750px;
+    margin-top: -314px;
+    
+}
+
+
+ 
 
  
  
